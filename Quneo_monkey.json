@@ -1,0 +1,2331 @@
+{
+  "classArray" : [
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "Button",
+    "MultiSliderElement",
+    "Slider",
+    "Button",
+    "Slider",
+    "MultiSliderElement",
+    "Button",
+    "Button",
+    "Slider",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button",
+    "Button",
+    "Slider",
+    "PositionElement",
+    "Button",
+    "Button"
+  ],
+  "keyArray" : [
+    "record",
+    "stop",
+    "play",
+    "left1",
+    "left2",
+    "left3",
+    "left4",
+    "right1",
+    "right2",
+    "right3",
+    "right4",
+    "hfaders",
+    "rotary1",
+    "crystal",
+    "rotary2",
+    "vfaders",
+    "up1",
+    "down1",
+    "longfader",
+    "down2",
+    "up2",
+    "padOn1",
+    "padVelo1",
+    "padXY1",
+    "padGreen1",
+    "padRed1",
+    "padOn2",
+    "padVelo2",
+    "padXY2",
+    "padGreen2",
+    "padRed2",
+    "padOn3",
+    "padVelo3",
+    "padXY3",
+    "padGreen3",
+    "padRed3",
+    "padOn4",
+    "padVelo4",
+    "padXY4",
+    "padGreen4",
+    "padRed4",
+    "padOn5",
+    "padVelo5",
+    "padXY5",
+    "padGreen5",
+    "padRed5",
+    "padOn6",
+    "padVelo6",
+    "padXY6",
+    "padGreen6",
+    "padRed6",
+    "padOn7",
+    "padVelo7",
+    "padXY7",
+    "padGreen7",
+    "padRed7",
+    "padOn8",
+    "padVelo8",
+    "padXY8",
+    "padGreen8",
+    "padRed8",
+    "padOn9",
+    "padVelo9",
+    "padXY9",
+    "padGreen9",
+    "padRed9",
+    "padOn10",
+    "padVelo10",
+    "padXY10",
+    "padGreen10",
+    "padRed10",
+    "padOn11",
+    "padVelo11",
+    "padXY11",
+    "padGreen11",
+    "padRed11",
+    "padOn12",
+    "padVelo12",
+    "padXY12",
+    "padGreen12",
+    "padRed12",
+    "padOn13",
+    "padVelo13",
+    "padXY13",
+    "padGreen13",
+    "padRed13",
+    "padOn14",
+    "padVelo14",
+    "padXY14",
+    "padGreen14",
+    "padRed14",
+    "padOn15",
+    "padVelo15",
+    "padXY15",
+    "padGreen15",
+    "padRed15",
+    "padOn16",
+    "padVelo16",
+    "padXY16",
+    "padGreen16",
+    "padRed16"
+  ],
+  "uiBuilder" : {
+    "padVelo9" : {
+      "grdFrm" : "{{13, 6}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padGreen14" : {
+      "grdFrm" : "{{21, 4}, {4, 1}}",
+      "mtxFlg" : false,
+      "toggle" : true,
+      "mtxGrp" : "Button Group",
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 26,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/Control Surface Quneo\/padOn14",
+          "tog" : false,
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padVelo12" : {
+      "grdFrm" : "{{40, 6}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padOn2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{21, 18}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY2" : {
+      "height" : 1,
+      "grdFrm" : "{{23, 18}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padOn5" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY5" : {
+      "height" : 1,
+      "grdFrm" : "{{14, 12}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "record" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{3, 0}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [34]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padVelo15" : {
+      "grdFrm" : "{{31, 0}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padOn8" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "left2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 4}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [38]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padXY8" : {
+      "height" : 1,
+      "grdFrm" : "{{41, 12}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padRed10" : {
+      "grdFrm" : "{{25, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 19,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padXY11" : {
+      "height" : 1,
+      "grdFrm" : "{{32, 6}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padOn11" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{30, 6}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "right1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{2, 2}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [37]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padGreen2" : {
+      "grdFrm" : "{{21, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 2,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padRed2" : {
+      "grdFrm" : "{{25, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 3,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "right4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{2, 8}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [43]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padRed13" : {
+      "grdFrm" : "{{16, 4}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 25,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padOn14" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{21, 0}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY14" : {
+      "height" : 1,
+      "grdFrm" : "{{23, 0}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padRed5" : {
+      "grdFrm" : "{{16, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 9,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "hfaders" : {
+      "grdFrm" : "{{4, 2}, {7, 8}}",
+      "min" : 0,
+      "fill" : 0,
+      "msg" : {
+        "title" : false,
+        "sldrCount" : "{1, 4}",
+        "sldrs" : [
+          {
+            "rcvrs" : [
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [11]",
+                "wantsEnbl" : true
+              }
+            ],
+            "sndrs" : [
+              {
+                "singleNoteThresh" : 5,
+                "noteRangeLow" : 0,
+                "channel" : 0,
+                "ctrl" : 11,
+                "singleNote" : 0,
+                "staticVelFlag" : true,
+                "noteRangeSendNoteoffs" : true,
+                "dataSenderType" : 1,
+                "enabled" : true,
+                "noteRangeMutexNoteoffs" : false,
+                "noteRangeHigh" : 127,
+                "senderType" : 4,
+                "staticVel" : 127
+              }
+            ],
+            "val" : 0
+          },
+          {
+            "rcvrs" : [
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [10]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 0
+          },
+          {
+            "rcvrs" : [
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [9]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 0
+          },
+          {
+            "rcvrs" : [
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [8]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 0
+          }
+        ]
+      },
+      "max" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true
+    },
+    "padRed16" : {
+      "grdFrm" : "{{43, 4}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 31,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padRed8" : {
+      "grdFrm" : "{{43, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 15,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padGreen5" : {
+      "grdFrm" : "{{12, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 8,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padVelo1" : {
+      "grdFrm" : "{{13, 18}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "rotary2" : {
+      "grdFrm" : "{{6, 10}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/ctrl [7]",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.8976377952755905,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padVelo4" : {
+      "grdFrm" : "{{40, 18}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padGreen8" : {
+      "grdFrm" : "{{39, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 14,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "left3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 6}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [40]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padGreen12" : {
+      "grdFrm" : "{{39, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 22,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padVelo7" : {
+      "grdFrm" : "{{31, 12}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "VVGridSize" : "{47, 26}",
+    "padVelo11" : {
+      "grdFrm" : "{{31, 6}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padGreen15" : {
+      "grdFrm" : "{{30, 4}, {4, 1}}",
+      "mtxFlg" : false,
+      "toggle" : true,
+      "mtxGrp" : "Button Group",
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 28,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/Control Surface Quneo\/padOn15",
+          "tog" : false,
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "crystal" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{5, 10}, {1, 5}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [46]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padOn3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{30, 18}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY3" : {
+      "height" : 1,
+      "grdFrm" : "{{32, 18}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padVelo14" : {
+      "grdFrm" : "{{22, 0}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padOn6" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{21, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "up1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 24}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [46]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padXY6" : {
+      "height" : 1,
+      "grdFrm" : "{{23, 12}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padOn9" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 6}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY9" : {
+      "height" : 1,
+      "grdFrm" : "{{14, 6}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "left4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 8}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [42]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "down1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 25}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [47]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "longfader" : {
+      "grdFrm" : "{{17, 24}, {25, 2}}",
+      "rcvrs" : [
+        {
+          "src" : "\/TCM 1\/crossfader",
+          "wantsEnbl" : true
+        },
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/ctrl [5]",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0,
+      "markArray" : [
+        {
+          "mval" : 0.5
+        }
+      ],
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padXY10" : {
+      "height" : 1,
+      "grdFrm" : "{{23, 6}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padOn10" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{21, 6}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "up2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{43, 24}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [48]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padGreen1" : {
+      "grdFrm" : "{{12, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 0,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padXY13" : {
+      "height" : 1,
+      "grdFrm" : "{{14, 0}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padOn13" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 0}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padRed1" : {
+      "grdFrm" : "{{16, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 1,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "right2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{2, 4}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [39]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padRed11" : {
+      "grdFrm" : "{{34, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 21,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padRed4" : {
+      "grdFrm" : "{{43, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 7,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padRed14" : {
+      "grdFrm" : "{{25, 4}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 27,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padOn16" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 0}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padGreen4" : {
+      "grdFrm" : "{{39, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 6,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padGreen10" : {
+      "grdFrm" : "{{21, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 18,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padRed7" : {
+      "grdFrm" : "{{34, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 13,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padXY16" : {
+      "height" : 1,
+      "grdFrm" : "{{41, 0}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "rotary1" : {
+      "grdFrm" : "{{0, 10}, {5, 5}}",
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/ctrl [6]",
+          "wantsEnbl" : true
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.2834645669291339,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padVelo2" : {
+      "grdFrm" : "{{22, 18}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padGreen7" : {
+      "grdFrm" : "{{30, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 12,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "down2" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{43, 25}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [49]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padVelo5" : {
+      "grdFrm" : "{{13, 12}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padGreen13" : {
+      "grdFrm" : "{{12, 4}, {4, 1}}",
+      "mtxFlg" : false,
+      "toggle" : true,
+      "mtxGrp" : "Button Group",
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 24,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/Control Surface Quneo\/padOn13",
+          "tog" : false,
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padVelo8" : {
+      "grdFrm" : "{{40, 12}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padVelo10" : {
+      "grdFrm" : "{{22, 6}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "VVGridMode" : true,
+    "play" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{9, 0}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [35]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padXY1" : {
+      "height" : 1,
+      "grdFrm" : "{{14, 18}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padVelo13" : {
+      "grdFrm" : "{{13, 0}, {1, 4}}",
+      "rcvrs" : [
+        {
+          "src" : "\/<No Src Chosen>"
+        }
+      ],
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "stop" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{6, 0}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [34]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padOn1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{12, 18}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padOn4" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 18}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY4" : {
+      "height" : 1,
+      "grdFrm" : "{{41, 18}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padGreen16" : {
+      "grdFrm" : "{{39, 4}, {4, 1}}",
+      "mtxFlg" : false,
+      "toggle" : true,
+      "mtxGrp" : "Button Group",
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 30,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "src" : "\/Control Surface Quneo\/padOn16",
+          "tog" : false,
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padOn7" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{30, 12}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY7" : {
+      "height" : 1,
+      "grdFrm" : "{{32, 12}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padVelo16" : {
+      "grdFrm" : "{{40, 0}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "padXY12" : {
+      "height" : 1,
+      "grdFrm" : "{{41, 6}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padOn12" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{39, 6}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padRed12" : {
+      "grdFrm" : "{{43, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 23,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "right3" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{2, 6}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [41]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padRed3" : {
+      "grdFrm" : "{{34, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 5,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padGreen3" : {
+      "grdFrm" : "{{30, 22}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 4,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padOn15" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{30, 0}, {1, 4}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "wantsEnbl" : true,
+          "tog" : false,
+          "src" : "\/MIDI\/ch. 0\/ctrl [59]",
+          "echNm2" : "QUNEO-QUNEO"
+        }
+      ]
+    },
+    "padXY15" : {
+      "height" : 1,
+      "grdFrm" : "{{32, 0}, {6, 4}}",
+      "width" : 1,
+      "pubNorm" : false,
+      "X" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [60]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "Y" : {
+        "rcvrs" : [
+          {
+            "src" : "\/MIDI\/ch. 0\/ctrl [61]",
+            "echNm2" : "QUNEO-QUNEO",
+            "wantsEnbl" : true
+          }
+        ],
+        "val" : 0
+      },
+      "sendEnabled" : true
+    },
+    "padRed15" : {
+      "grdFrm" : "{{34, 4}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 29,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padRed6" : {
+      "grdFrm" : "{{25, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 11,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "vfaders" : {
+      "grdFrm" : "{{0, 15}, {11, 11}}",
+      "min" : 0,
+      "fill" : 0,
+      "msg" : {
+        "title" : false,
+        "sldrCount" : "{4, 1}",
+        "sldrs" : [
+          {
+            "rcvrs" : [
+              {
+                "src" : "\/Layers\/Deck A\/Opacity",
+                "wantsEnbl" : true
+              },
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [1]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 1
+          },
+          {
+            "rcvrs" : [
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [2]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 1
+          },
+          {
+            "rcvrs" : [
+              {
+                "src" : "\/Layers\/Deck B\/Opacity",
+                "wantsEnbl" : true
+              },
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [3]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 0
+          },
+          {
+            "rcvrs" : [
+              {
+                "echNm2" : "QUNEO-QUNEO",
+                "echo" : true,
+                "src" : "\/MIDI\/ch. 0\/ctrl [4]",
+                "wantsEnbl" : true
+              }
+            ],
+            "val" : 1
+          }
+        ]
+      },
+      "max" : 1,
+      "publishNorm" : true,
+      "sendEnabled" : true
+    },
+    "padRed9" : {
+      "grdFrm" : "{{16, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 17,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padGreen11" : {
+      "grdFrm" : "{{30, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 20,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padGreen6" : {
+      "grdFrm" : "{{21, 16}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 10,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padVelo3" : {
+      "grdFrm" : "{{31, 18}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    },
+    "left1" : {
+      "mtxFlg" : false,
+      "grdFrm" : "{{0, 2}, {2, 2}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "val" : false,
+      "sendEnabled" : true,
+      "rcvrs" : [
+        {
+          "echNm2" : "QUNEO-QUNEO",
+          "tog" : false,
+          "echo" : true,
+          "src" : "\/MIDI\/ch. 0\/note [36]",
+          "wantsEnbl" : true
+        }
+      ]
+    },
+    "padGreen9" : {
+      "grdFrm" : "{{12, 10}, {4, 1}}",
+      "mtxGrp" : "Button Group",
+      "toggle" : true,
+      "mtxFlg" : false,
+      "sndrs" : [
+        {
+          "singleNoteThresh" : 5,
+          "noteRangeLow" : 0,
+          "channel" : 0,
+          "ctrl" : 0,
+          "singleNote" : 16,
+          "staticVelFlag" : true,
+          "noteRangeSendNoteoffs" : true,
+          "dataSenderType" : 1,
+          "enabled" : true,
+          "noteRangeMutexNoteoffs" : false,
+          "noteRangeHigh" : 127,
+          "senderType" : 1,
+          "staticVel" : 127
+        }
+      ],
+      "val" : false,
+      "sendEnabled" : true
+    },
+    "padVelo6" : {
+      "grdFrm" : "{{22, 12}, {1, 4}}",
+      "minRange" : 0,
+      "val" : 0.5,
+      "publishNorm" : true,
+      "sendEnabled" : true,
+      "maxRange" : 1
+    }
+  }
+}
